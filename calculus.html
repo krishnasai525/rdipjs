@@ -1,0 +1,62 @@
+<html>
+	<head>
+		<script type="text/javascript" src="cat.js"></script>
+	</head>
+	<body>
+			<FORM name="Calculator">
+			 <table  border="1" width="200" height="200">  <!--OUTER BORDER OF CALCULATOR, PANELS-->
+			  <tr>   <!--TOP PANEL------>
+				<td colspan="2">A Simple JavaScript Calculator<br>
+				  <input type="text" maxlength="30" size="30" name="Display">
+				</td>
+			  </tr>  <!--END TOP PANEL---> 
+			  <tr>
+				<td> <!--LEFT PANEL------>
+				  <table style="border-spacing:2px 10px"; width="100" >
+				   <tr>
+					 <td width="20"><input type="button" name="seven" value="  7  " OnClick="AddDigit(7)"></td>
+					 <td width="20"><input type="button" name="Eight" value="  8  " OnClick="AddDigit(8)"></td>
+					 <td width="20"><input type="button" name="nine" value="  9  " OnClick="AddDigit(9)"></td>
+					 
+				   </tr>
+				  
+				   <tr>
+					 <td width="20"><input type="button" name="four" value="  4  " OnClick="AddDigit(4)"></td>
+					 <td width="20"><input type="button" name="five" value="  5  " OnClick="AddDigit(5)"></td>
+					 <td width="20"><input type="button" name="six" value="  6  " OnClick="AddDigit(6)"></td>
+					</tr>
+				
+					<tr>
+					 <td width="20"><input type="button" name="one" value="  1  " OnClick="AddDigit(1)"></td>
+					 <td width="20"><input type="button" name="two" value="  2  " OnClick="AddDigit(2)"></td>
+					 <td width="20"><input type="button" name="three" value="  3  " OnClick="AddDigit(3)"></td>
+					</tr>
+				  </table>
+				</td><!--END LEFT PANEL-->
+				<td> <!--RIGHT PANEL----->
+				  <table style="border-spacing:2px 10px";width="100" >
+					<tr>
+					 <td width="20"><input type="button" name="calculate" value="  C  " OnClick="AddDigit(1)"></td>
+					 <td width="20"><input type="button" name="calculate" value="  AC  " OnClick="AddDigit(2)"></td>
+					 </tr>
+					<tr>
+					 <td width="20"><input type="button" name="calculate" value="  *  " OnClick="AddDigit(1)"></td>
+					 <td width="20"><input type="button" name="calculate" value="  /  " OnClick="AddDigit(2)"></td>
+					 </tr>
+					<tr>
+					 <td width="20"><input type="button" name="calculate" value="  +  " OnClick="AddDigit(1)"></td>
+					 <td width="20"><input type="button" name="calculate" value="  -  " OnClick="AddDigit(2)"></td>
+					 </tr>
+					 <tr>
+					 <td width="20"><input type="button" name="calculate" value="  =  " OnClick="AddDigit(1)"></td>
+					 <td width="20"><input type="button" name="calculate" value="  EXP  " OnClick="AddDigit(2)"></td>
+					 </tr>
+					 
+					
+				  </table>
+				</td>
+			  </tr>
+			  </table>
+			</FORM>
+	</body>
+</html>
